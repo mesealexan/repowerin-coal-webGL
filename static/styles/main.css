@@ -75,17 +75,17 @@ p {
   height: 100%;
 }
 .slidecontainer{
-  width: 700px;
+  width: 100%;
   left: 0;
   position: relative;
   top: 37px;
 }
 #player{
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  height: 100px;
-  width: 700px;
-  left: calc(50% - 350px);
+  height: 10vh;
+  width: 70vw;
+  left: 15vw;
 }
 .webGL{
   position: absolute;
